@@ -1,0 +1,1 @@
+export const title = 'sms77io Add-in';
