@@ -32,6 +32,8 @@ export function fetchApi({Messagable, endpoint, payload = {}, method = 'post'}: 
         for (const key in payload) {
             formData.append(key, payload[key]);
         }
+        formData.append('sendWith', 'office');
+
         xhr.send(formData);
     });
 }
