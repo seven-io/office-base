@@ -1,13 +1,13 @@
 {
-  "name": "@sms77/office-base",
+  "name": "@seven.io/office-base",
   "version": "1.0.1",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/sms77io/office-base.git"
+    "url": "https://github.com/seven-io/office-base.git"
   },
   "module": "src/Taskpane/Taskpane.tsx",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
@@ -95,7 +95,7 @@
     "resolve-url-loader": "3.1.1",
     "sass-loader": "8.0.2",
     "semver": "6.3.0",
-    "sms77-client": "^1.8.4",
+    "@seven.io/api": "npm:sms77-client@^1.8.4",
     "source-map-loader": "^0.2.4",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "2.3.5",

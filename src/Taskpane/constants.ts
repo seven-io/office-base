@@ -1,1 +1,1 @@
-export const title = 'sms77io Add-in';
+export const title = 'seven Add-in';
